@@ -41,16 +41,6 @@ for (let f = 2; f <= n; f++) {
 }
 
 // 5
-// const z = 81;
-// for (let t = 3; t < z; ) {
-//     if (z % t === 0) {
-
-//             alert(`your number ${z} is divisible by 3`)
-//     } else {
-//         alert ('Your number is not suitable for the third degree!!!')
-//         }
-// }
-
 
 const z = 135;
 for (let t = 3; t < z; ) {
