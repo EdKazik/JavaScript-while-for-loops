@@ -1,4 +1,5 @@
 // 1
+
 let str = '';
 for (let num = 20; num <= 30; num += 0.5) {
 		str += `${num}; `;  
@@ -20,7 +21,6 @@ for (let a = 1 ; a <= 10000; a++) {
     let b = a * a;
     if (b <= N) {
         s += `${a}; `
-            
     }   	
 }
 console.log(s);
@@ -41,16 +41,6 @@ for (let f = 2; f <= n; f++) {
 }
 
 // 5
-// const z = 81;
-// for (let t = 3; t < z; ) {
-//     if (z % t === 0) {
-
-//             alert(`your number ${z} is divisible by 3`)
-//     } else {
-//         alert ('Your number is not suitable for the third degree!!!')
-//         }
-// }
-
 
 const z = 135;
 for (let t = 3; t < z; ) {
@@ -58,7 +48,7 @@ for (let t = 3; t < z; ) {
             prompt(`${(z/3)/3} to the third degree = ${z}`)
             break;
     } else {
-        alert ('Your number is not suitable for the third degree!!!')
-        break;
+            alert ('Your number is not suitable for the third degree!!!')
+            break;
         }
 }
